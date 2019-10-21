@@ -5458,7 +5458,8 @@ button.bg-dark:focus {
 .d-flex {
   display: -webkit-box !important;
   display: -ms-flexbox !important;
-  display: flex !important; }
+  display: flex !important; 
+  overflow: auto}
 
 .d-inline-flex {
   display: -webkit-inline-box !important;
