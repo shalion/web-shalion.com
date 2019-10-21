@@ -7,11 +7,12 @@
 
 /* Fix for not scrolling */
 
+.modal {
+  overflow-y:auto;
+  z-index: 999 !important;
 
-parent {
-    overflow-y: scroll; /* has to be scroll, not auto */
-    -webkit-overflow-scrolling: touch;
 }
+
 
 :root {
   --blue: #007bff;
