@@ -7,15 +7,10 @@
 
 /* Fix for not scrolling */
 
-nav.navbar.fixed-top {
-    max-height: 100%;
-    overflow-y: auto;
-}
 
-@media (min-width: 992px) {
-    nav.navbar.fixed-top {
-        overflow-y: visible;
-    }
+parent {
+    overflow-y: scroll; /* has to be scroll, not auto */
+    -webkit-overflow-scrolling: touch;
 }
 
 :root {
